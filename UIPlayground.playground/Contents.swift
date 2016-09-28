@@ -38,4 +38,5 @@ labelTwo.text = "Hello, this is label 2"
 labelTwo
 let myDatePicker = UIDatePicker()
 myDatePicker.datePickerMode = UIDatePickerMode.Time
+myDatePicker.backgroundColor = UIColor.greenColor()
 myDatePicker
