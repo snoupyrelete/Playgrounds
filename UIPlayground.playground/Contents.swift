@@ -13,6 +13,12 @@ viewTwo.backgroundColor = UIColor.cyanColor()
 viewTwo.layer.cornerRadius = viewTwo.frame.width / 2
 viewTwo
 
+var viewThree = UIView(frame: CGRectMake(0, 0, 100, 100))
+viewThree.backgroundColor = UIColor.magentaColor()
+viewThree.layer.cornerRadius = 50
+viewThree.layer.borderWidth = 20
+viewThree
+
 let myButton = UIButton(frame: CGRectMake(0, 0, 200, 80))
 myButton.backgroundColor = UIColor.orangeColor()
 myButton.setTitle("Press me", forState: .Normal)
@@ -24,6 +30,12 @@ secondButton.backgroundColor = UIColor.redColor()
 secondButton
 let myLabel = UILabel(frame: CGRectMake(0, 0, 100, 200))
 myLabel.backgroundColor = UIColor.purpleColor()
-myLabel.text = "Hello
-"
-// myLabel.textAlignment = NSTextAlignmentCenter
+myLabel.text = "Hello"
+myLabel
+let labelTwo = UILabel(frame: CGRectMake(0, 0, 400, 20))
+labelTwo.backgroundColor = UIColor.purpleColor()
+labelTwo.text = "Hello, this is label 2"
+labelTwo
+let myDatePicker = UIDatePicker()
+myDatePicker.datePickerMode = UIDatePickerMode.Time
+myDatePicker
